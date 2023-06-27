@@ -17,7 +17,7 @@ console.log("isEvenNumber(7)", isEvenNumber(7)); // Виведе: false
 
 function calculateSum(n) {
   let sum = 0;
-  for (let i = 1; i <= n; i++) {
+  for (let i = 2; i <= n; i++) {
     sum = i + sum;
   }
   return sum;
